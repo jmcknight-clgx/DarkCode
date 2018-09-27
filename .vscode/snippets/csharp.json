@@ -1,0 +1,79 @@
+{
+	"testm": {
+		"prefix": "testm",
+		"body": [
+			"[Trait(\"Category\", \"UnitTest\")]",
+			"[Fact]",
+			"public void ${0:name}()",
+			"{",
+			"\t// arrange",
+			"",
+			"\t// act",
+			"",
+			"\t// assert",
+			"}",
+			""
+		],
+		"description": "test method for xunit"
+	},
+	"testa": {
+		"prefix": "testa",
+		"body": [
+			"[Trait(\"Category\", \"UnitTest\")]",
+			"[Fact]",
+			"public async Task ${1:name}()",
+			"{",
+			"\t// arrange",
+			"\t$0",
+			"\t// act",
+			"",
+			"\t// assert",
+			"}",
+			""
+		],
+		"description": "async test method for xunit"
+	},
+	"testb": {
+		"prefix": "testb",
+		"body": [
+			"[Trait(\"Category\", \"UnitTest\")]",
+			"[Fact]",
+			"public async void ${1:name}()",
+			"{",
+			"\t// Arrange",
+			"\t$0",
+			"\t// Act",
+			"",
+			"\t// Assert",
+			"}",
+			""
+		],
+		"description": "async test method for xunit"
+	},
+	"csharp new file": {
+		"prefix": "csnf",
+		"body": [
+			"namespace $1",
+			"{",
+			"\tpublic class $2",
+			"\t{",
+			"\t\t$3",
+			"\t}",
+			"}"
+		],
+		"description": "Create a namespace block with a class"
+	},
+	"csharp new file": {
+		"prefix": "newFileWhoDis",
+		"body": [
+			"namespace $1",
+			"{",
+			"\tpublic class $2",
+			"\t{",
+			"\t\t$3",
+			"\t}",
+			"}"
+		],
+		"description": "Create a namespace block with a class"
+	}
+}
