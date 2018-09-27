@@ -1,0 +1,14 @@
+bin/
+obj/
+*/wwwroot/app/
+Xtractor.userprefs
+.DS_Store
+npm-debug.log
+*/wwwroot/css/xtractor*.css
+*/wwwroot/lib/
+.envrc
+ExtractedFiles/
+testFiles/
+
+cats.***.*
+dogs.**/dogs.*
