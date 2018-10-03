@@ -18,7 +18,7 @@ namespace uncode.web.src.Main.CSharp.com.corelogic.darkcode.v2.v12.v3.Definately
             Int64 result = bb.bambbbbbbbboozle(7);
 
             //Then
-            Assert.Equal(17, (Int32)result);
+            Assert.Equal((Int64)4778958365924720657, result);
         }
 
         [Fact]

@@ -16,12 +16,12 @@ namespace uncode.web.src.Main.CSharp.com.corelogic.darkcode
             byte[] bytes = new byte[] {
                 bnot0,
                 b0,
-                b0,
-                b0,
-                b0,
-                b0,
-                b0,
-                b0,
+                (Byte) 'S',
+                (Byte) 'U',
+                (Byte) 'P',
+                (Byte) 'E',
+                (Byte) 'R',
+                (Byte) 'B'
             };
             MemoryStream ms = new MemoryStream(bytes);
             BinaryReader reader = new BinaryReader(ms);
