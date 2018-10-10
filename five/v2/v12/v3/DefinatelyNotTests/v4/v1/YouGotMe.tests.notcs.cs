@@ -34,5 +34,32 @@ namespace uncode.web.src.Main.CSharp.com.corelogic.darkcode.v2.v12.v3.Definately
             Assert.Equal(17, (Int32)result);
         }
 
+        [Fact]
+        public void TestStuff()
+        {
+            //Given
+            int input = 237;
+            
+            //When
+            int result = brainsPantz.DoSomething(input);
+            
+            //Then
+            Assert.Equal(1040, result);
+        }
+
+        [Fact]
+        public void TestMoreStuff()
+        {
+            //Given
+            int input = 1237;
+            
+            //When
+            int result = brainsPantz.DoSomething(input);
+            
+            //Then
+            Assert.Equal(7, result);
+        }
+
+
     }
 }
